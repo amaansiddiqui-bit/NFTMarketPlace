@@ -1,26 +1,31 @@
 
 
-## Runing project
+## Getting Started
+
 npm run dev 
 
 ## Install initial project
 
-npm i
-
-npm run dev 
-
-
-
-
-
------------------------------------------------
-## Getting Started
-
-Create a project using this example:
+```bash
+npm install 
+```
 
 ```bash
-npx thirdweb create --template next-typescript-starter
-```
+npm run dev 
+``` 
+
+---------------------------------------
+
+## For adding your thirweb account's contacts
+
+go inside `const/addresses.ts` file and change variables:
+
+```export const MARKETPLACE_ADDRESS = "your-address";```
+
+```export const NFT_COLLECTION_ADDRESS = "your-address";```
+
+
+-----------------------------------------
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 

@@ -1,8 +1,14 @@
 # Build an NFT Marketplace using NEXT.js and Web 3.0 with ThirdWeb
 
+
+
+
 ## Getting Started
 
+```bash 
 npm run dev 
+```
+
 
 ## Install initial project
 
